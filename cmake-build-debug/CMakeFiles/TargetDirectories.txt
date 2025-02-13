@@ -1,0 +1,3 @@
+/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/CMakeFiles/TSP_problem.dir
+/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

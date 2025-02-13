@@ -1,0 +1,5 @@
+C:\Windows\system32\wsl.exe --distribution Debian --exec "/mnt/c/Program Files/JetBrains/CLion 2024.1/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/fddav/CLionProjects/TSP_problem -B /mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug"
+-- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug

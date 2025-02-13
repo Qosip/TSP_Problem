@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TSP_problem"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TSP_problem">
+				<Option output="/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/TSP_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 TSP_problem"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TSP_problem/fast">
+				<Option output="/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/TSP_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 TSP_problem/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/fddav/CLionProjects/TSP_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/clusters_reader.cpp">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/clusters_reader.h">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/distances_reader.cpp">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/distances_reader.h">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/graph_visualizer.cpp">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/graph_visualizer.h">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/main.cpp">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/tsp_solver.cpp">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/src/tsp_solver.h">
+			<Option target="TSP_problem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/fddav/CLionProjects/TSP_problem/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
