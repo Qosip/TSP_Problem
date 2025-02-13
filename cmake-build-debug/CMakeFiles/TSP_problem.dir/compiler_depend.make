@@ -686,6 +686,20 @@ CMakeFiles/TSP_problem.dir/src/graph_visualizer.cpp.o: /mnt/c/Users/fddav/CLionP
   /usr/include/c++/12/iostream \
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/queue \
+  /usr/include/c++/12/deque \
+  /usr/include/c++/12/bits/stl_deque.h \
+  /usr/include/c++/12/bits/deque.tcc \
+  /usr/include/c++/12/bits/stl_queue.h \
+  /usr/include/c++/12/stack \
+  /usr/include/c++/12/bits/stl_stack.h \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/fstream \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+  /usr/include/c++/12/bits/fstream.tcc \
+  /usr/include/c++/12/sstream \
+  /usr/include/c++/12/bits/sstream.tcc \
   /usr/include/c++/12/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -698,7 +712,6 @@ CMakeFiles/TSP_problem.dir/src/graph_visualizer.cpp.o: /mnt/c/Users/fddav/CLionP
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/12/bits/specfun.h \
-  /usr/include/c++/12/limits \
   /usr/include/c++/12/tr1/gamma.tcc \
   /usr/include/c++/12/tr1/special_function_util.h \
   /usr/include/c++/12/tr1/bessel_function.tcc \
@@ -718,7 +731,19 @@ CMakeFiles/TSP_problem.dir/src/graph_visualizer.cpp.o: /mnt/c/Users/fddav/CLionP
   /usr/include/c++/12/bits/chrono.h \
   /usr/include/c++/12/ratio \
   /usr/include/c++/12/bits/parse_numbers.h \
-  /usr/include/c++/12/chrono
+  /usr/include/c++/12/chrono \
+  /usr/include/c++/12/filesystem \
+  /usr/include/c++/12/bits/fs_fwd.h \
+  /usr/include/c++/12/bits/fs_path.h \
+  /usr/include/c++/12/iomanip \
+  /usr/include/c++/12/bits/quoted_string.h \
+  /usr/include/c++/12/codecvt \
+  /usr/include/c++/12/ext/concurrence.h \
+  /usr/include/c++/12/bits/shared_ptr.h \
+  /usr/include/c++/12/bits/shared_ptr_base.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/fs_dir.h \
+  /usr/include/c++/12/bits/fs_ops.h
 
 CMakeFiles/TSP_problem.dir/src/main.cpp.o: /mnt/c/Users/fddav/CLionProjects/TSP_problem/src/main.cpp \
   /usr/include/stdc-predef.h \
@@ -1018,6 +1043,20 @@ CMakeFiles/TSP_problem.dir/src/main.cpp.o: /mnt/c/Users/fddav/CLionProjects/TSP_
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
   /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /usr/include/c++/12/queue \
+  /usr/include/c++/12/deque \
+  /usr/include/c++/12/bits/stl_deque.h \
+  /usr/include/c++/12/bits/deque.tcc \
+  /usr/include/c++/12/bits/stl_queue.h \
+  /usr/include/c++/12/stack \
+  /usr/include/c++/12/bits/stl_stack.h \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/fstream \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+  /usr/include/c++/12/bits/fstream.tcc \
+  /usr/include/c++/12/sstream \
+  /usr/include/c++/12/bits/sstream.tcc \
   /usr/include/c++/12/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -1030,7 +1069,6 @@ CMakeFiles/TSP_problem.dir/src/main.cpp.o: /mnt/c/Users/fddav/CLionProjects/TSP_
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/12/bits/specfun.h \
-  /usr/include/c++/12/limits \
   /usr/include/c++/12/tr1/gamma.tcc \
   /usr/include/c++/12/tr1/special_function_util.h \
   /usr/include/c++/12/tr1/bessel_function.tcc \
@@ -1267,16 +1305,13 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
   /usr/include/c++/12/queue \
-  /usr/include/c++/12/bits/stl_queue.h
+  /usr/include/c++/12/bits/stl_queue.h \
+  /usr/include/c++/12/fstream \
+  /usr/include/c++/12/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+  /usr/include/c++/12/bits/fstream.tcc
 
-
-/usr/include/c++/12/bits/stl_queue.h:
-
-/usr/include/c++/12/queue:
-
-/usr/include/c++/12/bits/deque.tcc:
-
-/usr/include/c++/12/stack:
 
 /usr/include/c++/12/bits/unordered_map.h:
 
@@ -1287,6 +1322,16 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 /usr/include/c++/12/unordered_map:
 
 /mnt/c/Users/fddav/CLionProjects/TSP_problem/src/main.cpp:
+
+/usr/include/c++/12/bits/shared_ptr_base.h:
+
+/usr/include/c++/12/bits/shared_ptr.h:
+
+/usr/include/c++/12/ext/concurrence.h:
+
+/usr/include/c++/12/codecvt:
+
+/usr/include/c++/12/bits/quoted_string.h:
 
 /usr/include/c++/12/bits/parse_numbers.h:
 
@@ -1306,8 +1351,6 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 
 /usr/include/c++/12/tr1/gamma.tcc:
 
-/usr/include/c++/12/limits:
-
 /usr/include/c++/12/bits/specfun.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
@@ -1322,9 +1365,21 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 
 /mnt/c/Users/fddav/CLionProjects/TSP_problem/src/tsp_solver.h:
 
+/usr/include/c++/12/bits/fs_fwd.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/12/limits:
+
+/usr/include/c++/12/stack:
+
+/usr/include/c++/12/bits/stl_queue.h:
+
+/usr/include/c++/12/bits/deque.tcc:
+
+/usr/include/c++/12/queue:
 
 /usr/include/SFML/Graphics/Text.hpp:
 
@@ -1454,6 +1509,8 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/usr/include/c++/12/bits/fs_path.h:
+
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
@@ -1558,6 +1615,8 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 
 /usr/include/c++/12/bits/memoryfwd.h:
 
+/usr/include/c++/12/bits/fs_dir.h:
+
 /usr/include/SFML/System/Sleep.hpp:
 
 /usr/include/c++/12/cmath:
@@ -1627,6 +1686,8 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 /usr/include/c++/12/bits/uniform_int_dist.h:
 
 /usr/include/c++/12/bits/ptr_traits.h:
+
+/usr/include/c++/12/iomanip:
 
 /usr/include/SFML/Graphics/VertexBuffer.hpp:
 
@@ -1768,6 +1829,8 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 
 /usr/include/SFML/Window/Joystick.hpp:
 
+/usr/include/c++/12/bits/allocated_ptr.h:
+
 /usr/include/c++/12/bits/nested_exception.h:
 
 /usr/include/c++/12/bits/ios_base.h:
@@ -1896,6 +1959,8 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 
 /usr/include/SFML/System/NonCopyable.hpp:
 
+/usr/include/c++/12/filesystem:
+
 /usr/include/SFML/System/Lock.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
@@ -1915,6 +1980,8 @@ CMakeFiles/TSP_problem.dir/src/tsp_solver.cpp.o: /mnt/c/Users/fddav/CLionProject
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/c++/12/bits/algorithmfwd.h:
+
+/usr/include/c++/12/bits/fs_ops.h:
 
 /usr/include/c++/12/bits/stl_heap.h:
 

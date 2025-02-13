@@ -4,6 +4,7 @@
 #include <stack>
 #include <iostream>
 #include <queue>
+#include <fstream>
 
 // Heuristique gloutonne (Nearest Neighbor) avec Backtracking
 int tspNearestNeighbor(const std::vector<std::vector<int>>& graph, int start) {
@@ -73,7 +74,7 @@ int tspNearestNeighbor(const std::vector<std::vector<int>>& graph, int start) {
 }
 
 // Algorithme de Dijkstra pour la distance minimale entre deux clusters avec log du chemin
-int dijkstraClusters(const std::vector<std::vector<int>>& graph, int start, int destination) {
+int dijkstraClusters(const std::vector<std::vector<int>>& graph, int start, int destination, std::vector<int>& path) {
     start -= 1;  // Ajustement pour indexation 1-based à 0-based
     destination -= 1;
 
@@ -87,67 +88,60 @@ int dijkstraClusters(const std::vector<std::vector<int>>& graph, int start, int 
             return -1;
         }
         std::cout << "Chemin suivi : " << (start + 1) << std::endl;
+        path.push_back(start);
         return internalDistance;
     }
 
     int n = graph.size();
-    std::vector<int> dist(n, std::numeric_limits<int>::max()); // Distance à partir du point de départ
-    std::vector<int> prev(n, -1);  // Prédécesseur pour reconstruire le chemin
-    std::vector<bool> visited(n, false); // Clusters visités
+    std::vector<int> dist(n, std::numeric_limits<int>::max());
+    std::vector<int> prev(n, -1);
+    std::vector<bool> visited(n, false);
     dist[start] = 0;
 
-    // Min-heap pour choisir le prochain cluster avec la distance minimale
-    using Pair = std::pair<int, int>;  // (distance, cluster)
+    using Pair = std::pair<int, int>;
     std::priority_queue<Pair, std::vector<Pair>, std::greater<Pair>> pq;
     pq.push({0, start});
 
     while (!pq.empty()) {
-        int u = pq.top().second;  // Cluster actuel
+        int u = pq.top().second;
         pq.pop();
 
-        // Si on a déjà visité ce cluster, on passe
         if (visited[u]) continue;
         visited[u] = true;
 
-        // Vérification des voisins
         for (int v = 0; v < n; ++v) {
-            // S'il y a une connexion et que le cluster n'est pas encore visité
             if (graph[u][v] != -1 && !visited[v]) {
                 int newDist = dist[u] + graph[u][v];
                 if (newDist < dist[v]) {
                     dist[v] = newDist;
-                    prev[v] = u;  // Enregistrer le prédécesseur pour reconstruire le chemin
+                    prev[v] = u;
                     pq.push({dist[v], v});
                 }
             }
         }
     }
 
-    // Si la destination est inaccessible
     if (dist[destination] == std::numeric_limits<int>::max()) {
         std::cerr << "Il n'y a pas de chemin vers le cluster de destination." << std::endl;
         return -1;
     }
 
-    // Log du chemin suivi
-    std::cout << "Chemin suivi : ";
-    std::stack<int> path;
+    std::stack<int> tempPath;
     for (int v = destination; v != -1; v = prev[v]) {
-        path.push(v);
+        tempPath.push(v);
     }
 
-    // Afficher le chemin inversé (du départ à la destination)
-    while (!path.empty()) {
-        std::cout << (path.top() + 1) << " ";  // +1 pour afficher les clusters de 1 à n
-        path.pop();
+    path.clear();
+    while (!tempPath.empty()) {
+        path.push_back(tempPath.top());
+        tempPath.pop();
     }
-    std::cout << std::endl;
 
-    return dist[destination];  // Retourner la distance minimale
+    return dist[destination];
 }
 
 
-int dijkstraBuildings(const std::vector<std::vector<int>>& graph, const std::vector<std::vector<int>>& graphClusters, int start, int destination) {
+int dijkstraBuildings(const std::vector<std::vector<int>>& graph, const std::vector<std::vector<int>>& graphClusters, int start, int destination, std::vector<int>& path) {
     int clusterA = -1, clusterB = -1;
 
     // Identifier les clusters des bâtiments de départ et de destination
@@ -176,7 +170,7 @@ int dijkstraBuildings(const std::vector<std::vector<int>>& graph, const std::vec
     }
 
     // Appel de la fonction dijkstraClusters pour trouver la distance entre les clusters
-    int distance = dijkstraClusters(graphClusters, clusterA, clusterB);
+    int distance = dijkstraClusters(graphClusters, clusterA, clusterB, path);
 
     return distance;
 }
